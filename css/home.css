@@ -1,0 +1,125 @@
+body{
+    font-family: Simsun,Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(223, 216, 211);
+    font-size: small;
+}
+
+#main{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(215, 223, 255) 5px solid;
+    height: 627px;
+}
+
+header{
+    width:100%;
+    height: 80px;
+    border-bottom: rgb(207, 235, 248) 3px solid;
+    background:linear-gradient(rgba(141, 206, 231, 0.9),rgba(216, 230, 240, 0.8)) ;
+}
+
+.headtext1{
+    width: 300px;
+    height: inherit;
+    float:left;
+    margin-right: 20px;
+    color: rgb(89, 136, 151);
+    text-align: center;
+}
+
+.headtext2{
+    width: 300px;
+    height: inherit;
+    float:right;
+    margin-right: 2px;
+    color: rgb(70 63 80);
+    text-align: center;
+    font-size:25;
+    font-weight:bold;
+}
+
+nav{ 
+    width: 210px;
+    height: 540px;
+    background-color: rgb(255, 169, 174);
+    float:left;
+    margin-top: 3px;
+  }
+
+  nav ul{
+    width:210px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: -40px;
+    padding-top: 10px;
+  }
+  nav ul li{
+    
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width: 210px;
+    height: 108px;
+    padding-left:0px ;
+    color:white;
+    display:inline;
+    float:left;
+    text-align: center;
+  }
+
+  
+
+  nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    width: 140px;
+    height: 60px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+nav ul li a:hover{
+    color:inherit;
+    background-color: rgb(226, 141, 155);
+    width: 210px;
+    height: 60px;
+}
+
+#me{
+    height: 190px;;
+    margin-left: 230px;
+}
+
+
+.photo{
+    width: 590;
+    float: right;
+    margin-top: 3px;
+    background-color: burlywood;
+}
+
+#p-text{
+    float:right;
+    height: 140px;
+    width: 150px;
+}
+
+.text{
+    float:right;
+    width:590px;
+    height: 350px;
+    background-color: burlywood;
+}
+
+.style1{
+    text-align: center;
+  margin-top:60px;
+}
+.style2{
+    
+    width: 420px;
+    text-indent: 30px;
+    line-height: 1.5;
+    margin-left: 50px;
+}
